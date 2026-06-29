@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+.claude/
+
+# Private notes — never publish
+INTERNAL_NOTES.md
+
+# Logs
+*.log

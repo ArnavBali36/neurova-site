@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neurova Labs — Capture the thought before you speak it</title>
+  <meta name="description" content="Neurova is a wearable that captures your ideas the instant they form — and turns them into action." />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Neurova Labs" />
+  <meta property="og:description" content="A wearable that captures your ideas the instant they form — and turns them into action." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Mark that JS is available, so reveal animations only hide content when they can also show it -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#top">Skip to content</a>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#top" aria-label="Neurova Labs home">
+        <svg class="mark" viewBox="0 0 120 120" width="26" height="26" aria-hidden="true" focusable="false">
+          <use href="#neurova-mark" />
+        </svg>
+        <span class="nav__name">NEUROVA</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#vision">Vision</a>
+        <a href="#product">Product</a>
+        <a href="#teams">For teams</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn--primary btn--sm" href="#contact">Request access</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <canvas class="hero__canvas" id="field" aria-hidden="true"></canvas>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="container hero__content reveal">
+        <p class="eyebrow">Neurova&nbsp;Labs</p>
+        <h1 class="hero__title">Capture the thought<br />before you speak it.</h1>
+        <p class="hero__sub">
+          Neurova is a wearable that captures your ideas the instant they form —
+          and turns them into action.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact">Request early access</a>
+          <a class="btn btn--ghost" href="#product">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#vision" aria-label="Scroll to next section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===================== VISION ===================== -->
+    <section class="section" id="vision">
+      <div class="container measure reveal">
+        <p class="kicker">The shift</p>
+        <h2 class="section__title">Code was never<br />the bottleneck.</h2>
+        <p class="lead">
+          The hard part was never writing software. It's everything that never makes it
+          that far — the ideas that arrive mid-conversation, mid-walk, mid-thought, and
+          vanish before you can write them down.
+        </p>
+        <p class="lead">
+          Neurova closes that gap — bringing intelligence out of the screen
+          and into everyday life.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PROBLEM ===================== -->
+    <section class="section section--center" id="problem">
+      <div class="container reveal">
+        <p class="kicker">The problem</p>
+        <h2 class="statement">
+          Most of your best thinking<br />is lost before lunch.
+        </h2>
+        <p class="lead lead--center">
+          Hundreds of thoughts pass through your mind every day. Almost none are ever
+          written down. They're forgotten — gone before they can become anything.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PRODUCT ===================== -->
+    <section class="section" id="product">
+      <div class="container">
+        <div class="measure reveal">
+          <p class="kicker">How it works</p>
+          <h2 class="section__title">Thought in.<br />Action out.</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step__index">01</span>
+            <h3 class="step__title">Capture</h3>
+            <p class="step__body">
+              A discreet wearable records the spark of an idea the moment it happens.
+              No typing. No phone. No friction.
+            </p>
+          </article>
+
+          <article class="step reveal">
+            <span class="step__index">02</span>
+            <h3 class="step__title">Understand</h3>
+            <p class="step__body">
+              Our model brings thought to speech, then speech to structured intent —
+              so the system knows exactly what you meant.
+            </p>
+          </article>
+
+          <article class="step reveal">
+            <span class="step__index">03</span>
+            <h3 class="step__title">Act</h3>
+            <p class="step__body">
+              Captured ideas become agentic actions — notes filed, tasks created,
+              work set in motion. Instantly.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TEAMS ===================== -->
+    <section class="section section--soft" id="teams">
+      <div class="container measure reveal">
+        <p class="kicker">For teams</p>
+        <h2 class="section__title">A second brain<br />for your company.</h2>
+        <p class="lead">
+          Bring Neurova into your team's workflow and nothing gets lost. The insight
+          someone has in the middle of a meeting is captured, structured, and turned
+          into action — automatically.
+        </p>
+        <p class="lead">
+          A shared memory for everything your company thinks. The company brain that
+          keeps working long after everyone has left the office.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== DESIGN PHILOSOPHY ===================== -->
+    <section class="section section--center" id="design">
+      <div class="container reveal">
+        <p class="kicker">Designed to disappear</p>
+        <h2 class="statement">
+          The best tools don't<br />demand your attention.<br />They give it back.
+        </h2>
+        <p class="lead lead--center">
+          Neurova is built to be invisible — minimal, discreet, effortless.
+          A quiet layer between thought and action.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT / CLOSING ===================== -->
+    <section class="section section--close" id="contact">
+      <div class="container reveal">
+        <p class="kicker kicker--center">What's next</p>
+        <h2 class="statement">We're just getting started.</h2>
+        <p class="lead lead--center">
+          The model works. Now we're building the device — a quiet new layer
+          between thought and action — and bringing it to the world.
+        </p>
+        <div class="contact__cta">
+          <a class="btn btn--primary" href="mailto:hello@neurovalabs.com?subject=Neurova%20%E2%80%94%20Hello">
+            Get in touch
+          </a>
+          <a class="btn btn--ghost" href="mailto:hello@neurovalabs.com?subject=Neurova%20%E2%80%94%20Early%20access">
+            Request early access
+          </a>
+        </div>
+        <p class="contact__note">We're a small team building toward launch. Investors and builders welcome.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="footer__brand" href="#top" aria-label="Neurova Labs home">
+        <svg class="mark" viewBox="0 0 120 120" width="30" height="30" aria-hidden="true" focusable="false">
+          <use href="#neurova-mark" />
+        </svg>
+        <span class="footer__wordmark">
+          <span class="footer__name">NEUROVA</span>
+          <span class="footer__sub">LABS</span>
+        </span>
+      </a>
+
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#vision">Vision</a>
+        <a href="#product">Product</a>
+        <a href="#teams">For teams</a>
+        <a href="mailto:hello@neurovalabs.com">Contact</a>
+      </nav>
+
+      <p class="footer__copy">© <span id="year">2026</span> Neurova Labs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== SHARED SVG SYMBOL (the logo mark) ===================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="neurova-mark" viewBox="0 0 120 120">
+      <!-- Left vertical stem of the N -->
+      <polygon points="20,90 20,30 33,30 33,90" fill="currentColor" />
+      <!-- Diagonal of the N -->
+      <polygon points="20,30 33,30 80,90 67,90" fill="currentColor" />
+      <!-- Right stem (lower, before it dissolves into dots) -->
+      <polygon points="67,90 67,58 80,58 80,90" fill="currentColor" />
+      <!-- Dispersing dots, top-right -->
+      <g fill="currentColor">
+        <circle cx="73" cy="46" r="3.4" />
+        <circle cx="84" cy="40" r="3.0" />
+        <circle cx="78" cy="32" r="2.6" />
+        <circle cx="90" cy="30" r="2.4" />
+        <circle cx="86" cy="22" r="2.0" opacity="0.9" />
+        <circle cx="96" cy="38" r="2.0" opacity="0.85" />
+        <circle cx="98" cy="24" r="1.7" opacity="0.8" />
+        <circle cx="92" cy="46" r="1.6" opacity="0.75" />
+        <circle cx="100" cy="32" r="1.4" opacity="0.7" />
+        <circle cx="105" cy="40" r="1.2" opacity="0.6" />
+        <circle cx="94" cy="16" r="1.3" opacity="0.6" />
+        <circle cx="104" cy="22" r="1.1" opacity="0.5" />
+        <circle cx="110" cy="30" r="0.9" opacity="0.45" />
+        <circle cx="100" cy="14" r="0.9" opacity="0.4" />
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
