@@ -68,7 +68,7 @@ automatically. You can add a custom domain later in the Vercel project settings.
 
 - **Words:** edit the text directly in `index.html`.
 - **Colors / spacing / fonts:** the variables at the top of `styles.css` (`:root`).
-- **Contact email:** the site uses `hello@neurovalabs.com` in a few `mailto:` links in
+- **Contact email:** the site uses `abali@andrew.cmu.edu` in a few `mailto:` links in
   `index.html` — search-and-replace it with your real address.
 - **Logo:** the mark is drawn inline as SVG (the `#neurova-mark` symbol near the bottom
   of `index.html`) so it's always crisp and never breaks. To use your own image instead,
